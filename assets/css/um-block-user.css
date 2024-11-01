@@ -1,0 +1,37 @@
+a.um-block-btn,a.um-report-btn{
+	max-width:120px !important;
+	display:inline-block !important;
+	margin:5px 0px 0px 5px;
+	padding:12px !important;
+		}
+a.um-block-btn:before,a.um-report-btn:before {
+	font-family: "FontAwesome";
+	margin-right: 8px;
+	width: 14px;
+	text-align: left;
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+	left: 0;
+}
+a.um-block-btn:before {
+	content: '\f070';
+}
+a.um-block-btn.unblock:before {
+	content: '\f06e' !important;
+}
+a.um-report-btn:before {
+	content: '\f06a';
+}
+a.um-report-btn.unreport:before {
+	content: '\f0eb' !important;
+}
+.um-profile-blocked-listing-item{
+	text-align:center;
+	display:inline-block;
+	margin:15px;
+}
+.um-profile-blocked-listing-item a img{
+	margin:0 auto;
+	border-radius:40px;
+}
